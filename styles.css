@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F7F3; /* Fondo oscuro */
+    padding-top: 70px; /* Ajuste para evitar que el contenido quede debajo de la navbar fija */
+    color: #F9F7F3; /* Texto en color acentuado */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #053048; /* Fondo de la barra de navegación */
+    top: 0; /* Asegura que quede en la parte superior */
+    left: 0; /* Asegura que quede alineada al lado izquierdo */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    z-index: 1000; /* Asegura que la navbar esté encima de otros elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar énfasis */
+    margin-top: -70px;
+}
+
+.navbar-brand, .nav-link {
+    color: #F9F7F3 !important; /* Color de texto de la barra de navegación */
+}
+
+.navbar-nav .nav-link {
+    color: #F9F7F3 !important; /* Color de los enlaces de la barra de navegación */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8C3608 !important; /* Color al pasar el ratón */
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    max-height: 550px; /* Máxima altura de las imágenes */
+    object-fit: cover; /* Ajusta la imagen sin distorsionar */
+}
+
+.carousel-caption p{
+    color: #F9F7F3 !important;
+    font-size: 30px;
+}
+
+.carousel-caption h5 {
+    color: #F9F7F3 !important; /* Color del texto del título en el carrusel */
+    font-size:20px 
+}
+
+#about {
+    background-color: #053048;
+    padding: 60px 20px;
+}
+
+#about h5 {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#about h2 {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#about .team-card {
+    margin-bottom: 30px;
+}
+
+#resources {
+    background-color: #FFFFFF;
+    padding: 60px 20px;
+}
+
+#resources h2 {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
+/* Card Styles */
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #F9F7F3; /* Color de los títulos de las tarjetas */
+}
+
+.card-body {
+    background-color: #053048; /* Fondo de las tarjetas */
+    color: #FFFFFF; /* Texto en color blanco dentro de las tarjetas */
+}
+
+.btn-primary {
+    background-color: #8C3608; /* Fondo de los botones */
+    border-color: #4DE2EF; /* Borde de los botones */
+}
+
+.btn-primary:hover {
+    background-color: #0FA3B1; /* Color al pasar el ratón */
+    border-color: #0FA3B1;
+}
+
+/* Articles Section Styles */
+.articles-section {
+    background-color: #053048;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.articles-section h2 {
+    color: #F9F7F3; /* Color del título de la sección */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.articles-section h5 {
+    margin-top: 25px;
+    padding: 20px;
+    color: #F9F7F3; /* Color del título de la sección */
+}
+
+.articles-section .btn {
+    background-color: #8C3608;
+    border-color: #0FA3B1;
+    color: #FFFFFF;
+}
+
+.articles-section .btn:hover {
+    background-color: #4DE2EF;
+    border-color: #4DE2EF;
+}
+
+/* Team Section Styles */
+.team-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-card h5 {
+    color: #053048;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.team-card p {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    background-color: #053048;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.newsletter h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    color: #FFFFFF;
+}
+
+.newsletter input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.newsletter button {
+    background-color: #8C3608;
+    border-color: #8C3608;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.newsletter button:hover {
+    background-color: #4DE2EF;
+    border-color: #4DE2EF;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #053048;
+    color: #4DE2EF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .team-card {
+        margin-bottom: 15px;
+    }
+}
